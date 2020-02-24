@@ -25,7 +25,7 @@ public class Block : MonoBehaviour
     private void CountBreakableBlocks()
     {
         level = FindObjectOfType<Level>();
-        if (tag == "breakable")
+        if (tag == "Breakable")
         {
             level.CountBlocks();
         }
